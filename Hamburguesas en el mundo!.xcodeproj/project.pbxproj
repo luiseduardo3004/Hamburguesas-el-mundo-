@@ -14,6 +14,7 @@
 		D3EE94D51D3A2CE000D903AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3EE94D31D3A2CE000D903AE /* LaunchScreen.storyboard */; };
 		D3EE94E01D3A2CE000D903AE /* Hamburguesas_en_el_mundo_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EE94DF1D3A2CE000D903AE /* Hamburguesas_en_el_mundo_Tests.swift */; };
 		D3EE94EB1D3A2CE000D903AE /* Hamburguesas_en_el_mundo_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EE94EA1D3A2CE000D903AE /* Hamburguesas_en_el_mundo_UITests.swift */; };
+		D3EE94F91D3A2CF200D903AE /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EE94F81D3A2CF200D903AE /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D3EE94E61D3A2CE000D903AE /* Hamburguesas en el mundo!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hamburguesas en el mundo!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3EE94EA1D3A2CE000D903AE /* Hamburguesas_en_el_mundo_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hamburguesas_en_el_mundo_UITests.swift; sourceTree = "<group>"; };
 		D3EE94EC1D3A2CE000D903AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3EE94F81D3A2CF200D903AE /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D3EE94D11D3A2CE000D903AE /* Assets.xcassets */,
 				D3EE94D31D3A2CE000D903AE /* LaunchScreen.storyboard */,
 				D3EE94D61D3A2CE000D903AE /* Info.plist */,
+				D3EE94F81D3A2CF200D903AE /* Datos.swift */,
 			);
 			path = "Hamburguesas en el mundo!";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				D3EE94CD1D3A2CE000D903AE /* ViewController.swift in Sources */,
 				D3EE94CB1D3A2CE000D903AE /* AppDelegate.swift in Sources */,
+				D3EE94F91D3A2CF200D903AE /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
