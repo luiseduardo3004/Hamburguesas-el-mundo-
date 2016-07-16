@@ -87,3 +87,32 @@ class ColeccionPaises {
     
 }
 
+class ColeccionPrecios {
+    let precios = [
+        "$12.40",
+        "$11.80",
+        "$14.20",
+        "$8.90",
+        "$9.60",
+        "$13.50",
+        "$24.75",
+        "$10.37",
+        "$7.99",
+        "$15.55",
+        "$17.89",
+        "$11.28",
+        "$22.54",
+        "$12.75",
+        "$14.60",
+        "$13.88",
+        "$22.22",
+        "$13.76",
+        "$23.15",
+        "$18.30"]
+    
+    func preciosAleatorios() -> String {
+        let posicion = Int ( arc4random()) % precios.count
+        return precios[posicion]
+    }
+    
+}

@@ -12,10 +12,12 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var hamburguesa: UILabel!
     @IBOutlet weak var pais: UILabel!
+    @IBOutlet weak var precio: UILabel!
     
     let hamburguesas = ColeccionHamburguesas()
     let paises = ColeccionPaises()
     let colores = Colores()
+    let precios = ColeccionPrecios()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,10 +33,12 @@ class ViewController: UIViewController {
         let colorLoco = colores.coloresAleatorios()
         let paisLoco = paises.paisesAleatorios()
         let hamburguesaLoca = hamburguesas.hamburguesaAleatoria()
+        let preciosLocos = precios.preciosAleatorios()
         view.backgroundColor = colorLoco
         view.tintColor = colorLoco
         hamburguesa.text = hamburguesaLoca
         pais.text = paisLoco
+        precio.text = preciosLocos
     }
     
 }
